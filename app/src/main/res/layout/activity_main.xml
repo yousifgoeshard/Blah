@@ -18,21 +18,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Name"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/pss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword"
-            android:text="Password" />
+            android:hint="Password"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/lgn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login" />
+
     </LinearLayout>
 </FrameLayout>
